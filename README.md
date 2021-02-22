@@ -2,9 +2,9 @@
 Repositório para ECM251
 
 # Dev.
-## Daniel Branquinho Gomes
+>Daniel Branquinho Gomes
 
 # Linguagens e Frameworks
--Python
--C
--Java
+>Python
+>C
+>Java
