@@ -57,6 +57,7 @@ public class Sistema {
                 }
             default:
                 System.out.println("Essa funcionalidade ainda não foi implementada");
+                break;
         }
     }
 
