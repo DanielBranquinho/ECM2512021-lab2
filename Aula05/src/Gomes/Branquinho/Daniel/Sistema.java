@@ -1,4 +1,4 @@
-package carvalho.zanini;
+package Gomes.Branquinho.Daniel;
 
 import java.util.Scanner;
 
