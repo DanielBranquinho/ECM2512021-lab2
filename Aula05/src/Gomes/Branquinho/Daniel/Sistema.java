@@ -26,7 +26,7 @@ public class Sistema {
                 System.out.println("Saldo Atual: R$" + this.conta.getSaldo());
                 break;
             case 2:
-                System.out.println("Qual quantia de dinheiro?");
+                System.out.println("Informe um valor para sacar:");
                 double quantiaParaSacar = scanner.nextDouble();
                 if (this.conta.sacar(quantiaParaSacar)){
                     System.out.println("Operação Realizada com Sucesso!");
@@ -35,7 +35,7 @@ public class Sistema {
                 }
                 break;
             case 3:
-                System.out.println("Qual quantia de dinheiro?");
+                System.out.println("Informe um valor para depositar:");
                 double quantiaParaDepositar = scanner.nextDouble();
                 this.conta.depositar(quantiaParaDepositar);
                 System.out.println("Operação Realizada com Sucesso!");
